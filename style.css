@@ -1,0 +1,283 @@
+   /* Body */
+body{
+    background-color: white;
+    margin: 0px;
+}
+.uni-padding{
+    padding: 0% 7%;
+}
+   /* topbar */
+#topbar{
+    background-color: gray;
+    padding-top: 18px;
+    padding-bottom:18px;
+    overflow: auto;
+}
+#tollfree{
+    color:white;
+    float:left;
+    margin-top:5px;
+    font-size: 20px;
+}
+#social-icons{
+    float: right;
+}
+.fa-brands{
+    background-color: white;
+    border-radius: 50px;
+    padding:7px;
+    color:gray;
+}
+.fa-facebook-f{
+    padding: 8px 7px;
+}
+.fa-whatsapp{
+    padding: 8px 7px;
+}
+.fa-twitter{
+    padding: 8px 7px;
+} 
+.fa-instagram{
+    padding: 8px 7px;
+}
+  /* Logo Bar */
+#logobar img{
+    width: 100px;
+    height: 100px;
+    margin: 25px 0px;
+}
+  /* navigation bar */
+
+#navbar{
+    background-color: brown;
+}
+
+#navbar ul li{
+list-style-type:none;
+display: inline;
+padding: 19px 0px;
+padding-right: 40px;
+margin-left: 0px;
+}
+
+#navbar ul{
+    padding:10px;
+    margin:0px;
+}
+
+#navbar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* banner */
+#poster{
+    background-image:url(Images03.png);
+    background-repeat: no-repeat;
+    height:500px ;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#poster h1{
+    font-size: 50px;
+}
+
+#poster p{
+    font-size:18px;
+    text-align: center;
+}
+
+   /* Why US */
+
+#whysection{
+    /* margin-bottom:50px ; */
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.red-heading{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top:50px;
+}
+
+.section33{
+    width:33.33%;
+    float:left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    padding-top: 1%;
+    box-sizing: border-box;
+    /* border: 2px solid yellowgreen; */
+
+}
+
+.section33 h2{
+    color:red;
+
+}
+
+.section33 p{
+    color:green;
+
+
+}
+
+.section33 img{
+    height:100px;
+    width:100px;
+    border: 2px solid #5A5959;
+}
+
+/* Contact Section */
+
+ #contact-section {
+    background-color: brown;
+    width: 85vw;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+
+.section70 {
+    float:left;
+    width: 70%;
+}  
+
+.dection30 {
+    padding-top:70px; 
+    display:flex ;
+    justify-content: center;
+    /* float: right; */
+    width: 30%;
+    align-items: center;
+} 
+
+/* Blog section */
+
+.section33 a{
+    color:red;
+    text-decoration: none;
+    font-weight:bold;
+}
+.section33 a{
+    width:100%;
+}
+
+/* subscribe section */
+
+#subscribe-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.section50_{
+ background-color: red;
+  
+}
+
+.section50 h2{
+   color: greenyellow;
+}
+.section50 input[ type="submit"]{
+   color: red;
+} 
+
+/* Footer */
+#imp-link{
+background-color: rgb(46, 3, 89);
+color:white;
+overflow: auto;
+}
+.div33{
+Width:33.33%;
+float:left;
+box-sizing: border-box;
+padding:25px 50px;
+}
+.div33 h3{ 
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness:2px;
+    font-weight:normal;
+}
+#footer-menu{
+    list-style-type:none;
+    padding:0px;
+
+}
+#footer-menu li{
+     padding-bottom:7px; 
+}
+#footer-menu li a{
+    text-decoration: none;
+    color:white;
+}
+#copyright{
+background-color: blue;
+text-align:center;
+color:rgb(250, 243, 243);
+padding:10px;
+
+}
+
+
+
+
+
+
+
+
+   /* Responsive for Ipad...768px width */
+
+ @media only screen and (max-width:768px){
+    #navbar ul li {
+    padding-right: 20px;
+
+}}
+    /* Responsive for Ipad...414px width */
+  @media only screen and (max-width:414px){
+        #navbar ul li{
+        padding-right:120px;
+        }
+        #navbar ul{
+            padding:15px;
+        }
+        #navbar ul li a{
+            font-size: 20px;
+        }
+        #tollfree{
+            font-size: 15px;
+        }
+        .fa-brands{
+            border-radius: 50px;
+            color:#6d5959;
+        }
+        .fa-instagram{
+            color:#900505;
+        }
+        #logobar img{
+            margin: 2px 0px;
+        }
+        .red-heading{
+            font-size: 3px;
+        }
+        .section33{
+            padding: px 50px 0px 50px;
+        
+        }
+    
+    }
